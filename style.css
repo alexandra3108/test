@@ -273,3 +273,15 @@ line-height: 28px;
     background-color: #000000;
     opacity: 0.6;
     vertical-align: middle;}
+    /*------------------------------------------ PAGE 5*/
+    .what{
+    	width: 1440px;
+        height: 923px;
+        background-color: #f9fbfb;
+    }
+.squareblack{
+width: 393px;
+height: 362px;
+border-radius: 3px;
+background-color: #ecedef;
+}
