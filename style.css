@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top{
+	height: 810px;
+	width: 100%;
+	background-color: #eff0f2;
+	padding: 65px 10% 0px;
+}
+
+.logo{
+	border: 6px solid #170f1c;
+	padding: 15px 14px;
+}
+
+.top .big{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*------------------------------------------->Burger*/
+
+.burger{
+	float: right;
+	margin-top: 16px;
+}
+.burger_line{
+	width: 30px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #000000;
+	opacity: 0.6;
+	margin-bottom: 2.5px;
+}
+.cculka:hover{
+    background-color: #76f4ea;
+}
+
+h1{
+	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+	color: #505050;
+	font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 160px;
+	letter-spacing: 2.7px;
+}
+
+h1 span{
+	background-color: #76f4ea;
+	padding: 5px 13px;
+}
+
+.relative{
+	position: relative;
+}
+
+.contact{
+	opacity: 0.75;
+	color: #3c3c3d;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28px;
+	text-transform: uppercase;
+	padding: 15px 48px;
+	margin: 160px 0px 0px 0px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin-right: -50%;*/
+    transform: translate(-50%, -50%);
+    background-color: #eff0f2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact:hover{
+	background-color: #76f4ea;
+}
+
+.podstav{
+	position: absolute;
+	margin: 170px 17%;
+	width: 140px; 
+	right: 0px;
+}
+
+/*------------------------------------------------------> Page 2*/
+
+.about_us{
+	width: 100%;
+	height: 980px;
+	background-color: #f8fafa;
+	padding: 128px 8% 0px;
+}
+
+h2{
+	opacity: 0.9;
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+.podzagol{
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.square{
+	width: 479px;
+	height: 412px;
+	background-color: #eff0f2;
+	margin-top: 35px;	
+	position: relative;
+	display: inline-block;
+}
+
+.insquare{
+	position: absolute;
+	bottom: -35px;
+	right: 43px;
+}
+
+.label1 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	background-color: #d0d0d0;
+}
+
+[type="radio"]:checked+.label1 {
+	border-radius: 3px;
+	background-color: #71f6eb;
+	transition: all 0.3s ease;
+}
+
+[type="radio"] {
+	display: none;
+}
+
+/*#radio2:checked{
+	background-color: #71f6eb;
+}*/
+
+form{
+	margin-top: 70px;
+	margin-left: 190px;
+	position: absolute;
+}
+
+h3{
+	opacity: 0.75;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase
+
+}
+
+.section p{
+	opacity: 0.74;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.about_us .big2{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.section{
+	width: 40%;
+	float: right;
+}
+
+/*------------------------------------------ PAGE 3*/
+
+.featured{
+	height: 1166px;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 128px 8% 0px;
+}
+
+h2 + p{
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 120px;	
+}
+
+.cake {
+	width: 370px;
+	height: 359px;
+}
+
+div .cake{
+	padding: 0px 14px 13px 0px;
+}
+
+/*----------------------------------- PAGE 4*/
+
+.services{
+	height: 1618px;
+	background-color: #f9fbfb;
+	padding: 128px 8% 0px;
+	width: 100%;
+}
+
+h4{
+	width: 404px;
+	height: 17px;
+	opacity: 0.83;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+
+h4 + br + p {
+width: 470px;
+height: 156px;
+opacity: 0.75;
+color: #000000;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.line_1{
+	width: 652px;
+	height: 422px;
+	background-color: #6df6eb;
+	opacity: 0.97;
+	padding: 63px 0px 0px 66px;
+}
+.line_2{
+	width: 474px;
+    height: 422px;
+    background-color: #000000;
+    opacity: 0.6;
+    vertical-align: middle;}
