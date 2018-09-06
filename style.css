@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top{
+	height: 810px;
+	width: 100%;
+	background-color: #eff0f2;
+	padding: 65px 10% 0px;
+}
+
+.logo{
+	border: 6px solid #170f1c;
+	padding: 15px 14px;
+}
+
+.top .big{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*------------------------------------------->Burger*/
+
+.burger{
+	float: right;
+	margin-top: 16px;
+}
+.burger_line{
+	width: 30px;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #000000;
+	opacity: 0.6;
+	margin-bottom: 2.5px;
+}
+.cculka:hover{
+    background-color: #76f4ea;
+}
+
+h1{
+	text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+	color: #505050;
+	font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 160px;
+	letter-spacing: 2.7px;
+}
+
+h1 span{
+	background-color: #76f4ea;
+	padding: 5px 13px;
+}
+
+.relative{
+	position: relative;
+}
+
+.contact{
+	opacity: 0.75;
+	color: #3c3c3d;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 28px;
+	text-transform: uppercase;
+	padding: 15px 48px;
+	margin: 160px 0px 0px 0px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin-right: -50%;*/
+    transform: translate(-50%, -50%);
+    background-color: #eff0f2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact:hover{
+	background-color: #76f4ea;
+}
+
+.podstav{
+	position: absolute;
+	margin: 170px 17%;
+	width: 140px; 
+	right: 0px;
+}
+
+/*------------------------------------------------------> Page 2*/
+
+.about_us{
+	width: 100%;
+	height: 980px;
+	background-color: #f8fafa;
+	padding: 128px 8% 0px;
+}
+
+h2{
+	opacity: 0.9;
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+.podzagol{
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.square{
+	width: 479px;
+	height: 412px;
+	background-color: #eff0f2;
+	margin-top: 35px;	
+	position: relative;
+	display: inline-block;
+}
+
+.insquare{
+	position: absolute;
+	bottom: -35px;
+	right: 43px;
+}
+
+.label1 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	background-color: #d0d0d0;
+}
+
+[type="radio"]:checked+.label1 {
+	border-radius: 3px;
+	background-color: #71f6eb;
+	transition: all 0.3s ease;
+}
+
+[type="radio"] {
+	display: none;
+}
+
+/*#radio2:checked{
+	background-color: #71f6eb;
+}*/
+
+form{
+	margin-top: 70px;
+	margin-left: 190px;
+	position: absolute;
+}
+
+h3{
+	opacity: 0.75;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	text-transform: uppercase
+
+}
+
+.section p{
+	opacity: 0.74;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.about_us .big2{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.section{
+	width: 40%;
+	float: right;
+}
+
+/*------------------------------------------ PAGE 3*/
+
+.featured{
+	height: 1166px;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 128px 8% 0px;
+}
+
+h2 + p{
+	opacity: 0.62;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 120px;	
+}
+
+.cake {
+	width: 370px;
+	height: 359px;
+}
+
+div .cake{
+	padding: 0px 14px 13px 0px;
+}
+
+/*----------------------------------- PAGE 4*/
+
+.services{
+	height: 1618px;
+	background-color: #f9fbfb;
+	padding: 128px 8% 0px;
+	width: 100%;
+}
+
+h4{
+	width: 404px;
+	height: 17px;
+	opacity: 0.83;
+	color: #000000;
+	font-family: Merriweather;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+
+h4 + br + br + p {
+width: 470px;
+height: 156px;
+opacity: 0.75;
+color: #000000;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.blue_1{
+	width: calc(60% - 7px);
+	height: 422px;
+	background-color: #6df6eb;
+	opacity: 0.97;
+	padding: 63px 0px 0px 66px;
+	margin-bottom: 12px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+.calc{
+	width: calc(40% - 7px);
+    height: 422px;
+    display: inline-block;
+}
+
+.calc:hover {
+	background-color: black;
+    opacity: 0.6;
+    /*padding: 184px 0px 0px 67px;*/
+}
+
+.nout{
+	width: calc(60% - 7px);
+	height: 422px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.butl{
+	width: calc(40% - 7px);
+	height: 370px;
+	margin-right: 10px;
+}
+
+.cerv{
+	width: calc(60% - 7px);
+	height: 370px;
+}
+
+.liner{
+	margin-bottom: 12px;
+}
+
+
+/*.liner_1 div{
+	display: inline-block;
+	vertical-align: top;
+}*/
+
+/*.liner_1{
+	width: calc((60% - 14px));
+}*/
+
+
+
+
+
+
+   /*------------------------------------------ PAGE 5*/ 
+
+.small{
+	height: 1314px;
+	width: 100%;
+	background-color: #f9fbfb;
+	padding: 122px 8% 0px;
+}
+
+
+.team {
+	width: 370px;
+	height: 440px;
+}
+
+div .team{
+	padding: 0px 14px 13px 0px;
+}
+/*------------------------------------------ PAGE 6*/ 
+
+    .what{
+    	width: 100%;
+        height: 923px;
+        background-color: #f9fbfb;
+        padding: 128px 8% 0px;
+    }
+.picture2 {
+	width: 393px;
+height: 362px;
+border-radius: 3px;
+background-color: #ecedef;
+position: relative;
+display: inline-block;
+margin-top: 24px;
+}
+
+.squareblack{
+position: absolute;
+bottom: -24px;
+width: 319px;
+height: 410px;
+right: 37px;
+
+}
+.what .star {
+	vertical-align: middle;
+	display: inline-block;
+}
+.label2 {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	background-color: #d0d0d0;
+}
+
+[type="radio"]:checked+.label2 {
+	border-radius: 3px;
+	background-color: #71f6eb;
+	transition: all 0.3s ease;
+}
+
+[type="radio"] {
+	display: none;
+}
+form{
+	margin-top: 70px;
+	margin-left: 190px;
+	position: absolute;
+}
+
+.rayhan{
+	width: 665px;
+	height: 360px;
+	background-color: #eaebed;
+	padding: 101px 80px 0px 85px;
+}
+
+.rayhan h3{
+	text-align: center;
+}
+
+.star {
+	display: inline-block;
+	position: relative;
+	left: 40%;
+}
+
+h3 span{
+font-family: "Merriweather - Regular";
+font-weight: 400;
+letter-spacing: 0.9px;
+}
+ /*------------------------------------------ PAGE 7*/
+.page6{
+	height: 923px;
+	background-color: #f9fbfb;
+	padding: 128px 8% 0px;
+	width: 100%;
+}
+.icons {
+width: 1133px;
+height: 172px;
+background-color: #9ba8a8;
+vertical-align: middle;
+	display: inline-block;
+margin-top: 108px;
+}
